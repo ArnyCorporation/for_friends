@@ -4,7 +4,7 @@ import Filters from './Filters';
 import Results from './Results';
 
 const Spoonacular = () => (
-  <div>
+  <div className="spoonacular">
     <h1>Spoonacular recipes</h1>
     <Filters />
     <Results />
