@@ -9,8 +9,8 @@ const Search = (props) => {
 
   const onInputSearch = (e) => {
     if (e.target.value.trim() !== '') {
-      getSearchResults(e.target.value);
       setFilter('all');
+      getSearchResults(e.target.value);
     }
   };
 
