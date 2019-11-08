@@ -33,7 +33,6 @@ const Button = (props) => {
   return (
     <div>
       <Btn
-        href="#"
         onClick={() => handleButton('random')}
       >
         {random}

@@ -6,7 +6,6 @@ const Filters = ({ getSearchResultsSpoon }) => (
   <div className="filter-spoon">
     <Button
       className="filter-spoon__button"
-      href="#"
       onClick={() => getSearchResultsSpoon()}
     >
           Random
