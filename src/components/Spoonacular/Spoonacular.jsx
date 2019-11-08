@@ -5,7 +5,7 @@ import Results from './Results';
 
 const Spoonacular = () => (
   <div>
-    <h1>Spoonacular</h1>
+    <h1>Spoonacular recipes</h1>
     <Filters />
     <Results />
   </div>
